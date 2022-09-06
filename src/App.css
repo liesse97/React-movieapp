@@ -1,0 +1,28 @@
+body{
+  margin: 0;
+  padding:0;
+  text-decoration: none;
+  list-style-type: none;
+  outline:none;
+  background-color: #edeeee!important;
+}
+.App-cont{
+  width: 100%;
+  margin:1em auto;
+  background-color:#edeeee ;
+
+}
+.grid-cont{
+  display: grid;
+  margin-left:0.6px;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap:0.2em;
+  justify-content: center;
+
+}
+
+h2{
+color: #000;
+text-align: center;
+padding-top:30px;
+}
