@@ -23,10 +23,6 @@ const FilmCard = ({title,poster_path,release_date,vote_average,overview}) => {
 
   <Modal.Body>
       <img className='card-img-top' style={{width:'224px'}}src={process.env.REACT_APP_API_IMG +poster_path} alt="" />
-      {/* <h3>{title}</h3> */}
-      {/* <h4>ImDB: {vote_average}</h4>
-      <h5>Release Date:{release_date}</h5> */}
-      {/* <br/> */}
       <h4>Overview</h4>
       <p>{overview}</p>
       <h6>Release Date:{release_date}</h6>

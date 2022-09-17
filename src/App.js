@@ -100,5 +100,3 @@ const handler =(e)=>{
 
 export default App;
 
-//  30:54 :https://www.youtube.com/watch?v=KveKdXSEV7A&t=1937s
-// 23:16 : Select Favorite(movies): https://www.youtube.com/watch?v=jc9
