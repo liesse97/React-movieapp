@@ -50,7 +50,7 @@ const handler =(e)=>{
       <Container fluid style={{
     fontWeight:'600'}}> 
       <Navbar.Brand href ='/home'> MovieApp</Navbar.Brand>
-            <Navbar.Brand href ='/home'> Popular</Navbar.Brand>
+            {/* <Navbar.Brand href ='/home'> Popular</Navbar.Brand>*/}
             {/* collapsible navbar bar */}
           <Navbar.Toggle arial-controls='navbarSroll'></Navbar.Toggle>
  
@@ -59,7 +59,7 @@ const handler =(e)=>{
                 className="me-auto my-2 my-lg-3" 
                 style={{maxHeight:'110px'}}
                 navbarScroll></Nav>
- <Form className="d-flex" onSubmit={search}>
+              <Form className="d-flex" onSubmit={search}>
               <FormControl
               type="search"
               placeholder="Movie Search"
@@ -78,6 +78,7 @@ const handler =(e)=>{
       </Container>
 
     </Navbar>
+
     <div>
       { film && film.length > 0 ?(
 <div className="App-cont">
