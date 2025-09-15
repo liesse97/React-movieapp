@@ -49,7 +49,8 @@ const handler =(e)=>{
     <Navbar bg='dark' expand='lg' variant='dark' >
       <Container fluid style={{
     fontWeight:'600'}}> 
-      <Navbar.Brand href ='/home'> MovieApp</Navbar.Brand>
+    
+      <Navbar.Brand href ='/home' element = {<FilmCard />}> MovieApp</Navbar.Brand>
             {/* <Navbar.Brand href ='/home'> Popular</Navbar.Brand>*/}
             {/* collapsible navbar bar */}
           <Navbar.Toggle arial-controls='navbarSroll'></Navbar.Toggle>
